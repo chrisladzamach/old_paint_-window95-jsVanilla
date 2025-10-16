@@ -169,6 +169,11 @@ main {
   display: flex;
 }
 
+main > aside {
+  display: flex;
+  flex-direction: column;
+}
+
 main > aside > ul {
   background: red;
   display: grid;
@@ -179,4 +184,10 @@ main > aside > ul {
 
 main > aside > ul > li {
   cursor: pointer;
+}
+
+.board {
+  background-color: white;
+  width: 300px;
+  height: 200px;
 }
