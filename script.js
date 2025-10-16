@@ -38,11 +38,11 @@ function draw (e) {
 
   const { offsetX, offsetY } = e;
 
-  ctx.beginPath()
-  ctx.moveTo(lastX, lastY)
-  ctx.lineTo(offsetX, offsetY)
-  ctx.stroke()
-  ;[lastX, lastY] = [offsetX, offsetY]
+  ctx.beginPath();
+  ctx.moveTo(lastX, lastY);
+  ctx.lineTo(offsetX, offsetY);
+  ctx.stroke();
+  [lastX, lastY] = [offsetX, offsetY]
 
 }
 
